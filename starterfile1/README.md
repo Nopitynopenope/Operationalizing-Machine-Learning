@@ -30,17 +30,27 @@ Not support Azure Container Instances
 
 Used by local deployment and experimentation (e.g. using Jupyter notebook)
 
+
 **Azure AutoML**
 
 Automated machine learning, also referred to as automated ML or AutoML, is the process of automating the time consuming, iterative tasks of machine learning model development. It allows data scientists, analysts, and developers to build ML models with high scale, efficiency, and productivity all while sustaining model quality.
+
+In this project we use AutoMl  to find the model that provides the most accurate results. In this case, it was Voting Ensemble with _0.91958 accuracy._
+
 
 **Deploy**
 
 Deployment is about delivering a trained model into production so that it can be consumed by others. Configuring deployment settings means making choices on cluster settings and other types of interaction with a deployment. Having a good grasp on configuring production environments in Azure ML Studio and the Python SDK is the key to get robust deployments.
 
+In this project, we deploy the best model, Voting Ensemble, with Azure Container Instances and we enable authentication.
+
+
 **Enable Application Insights**
 
 Application Insights collects log, performance, and error data. By automatically detecting performance anomalies and featuring powerful analytics tools, you can more easily diagnose issues and better understand how your functions are used. These tools are designed to help you continuously improve performance and usability of your functions. You can even use Application Insights during local function app project development. 
+
+In this project we run one of the starter files logs.py in order to enable Application Insights.
+
 
 **Consume Endpoints**
 
@@ -49,6 +59,9 @@ Swagger is a tool that helps build, document, and consume RESTful web services l
 You can consume a deployed service via an HTTP API. An HTTP API is a URL that is exposed over the network so that interaction with a trained model can happen via HTTP requests.
 
 Users can initiate an input request, usually via an HTTP POST request. HTTP POST is a request method that is used to submit data. The HTTP GET is another commonly used request method. HTTP GET is used to retrieve information from a URL. The allowed requests methods and the different URLs exposed by Azure create a bi-directional flow of information.
+
+In  this project we us ethe starter file endpoint.py to consume the endpoint of the deployed model. We send two input queries and we get appropriate response.
+
 
 **Create a Pipeline**
 
@@ -71,9 +84,6 @@ Pipelines can perform several other tasks aside from training a model. Some of t
 ## Key Steps
 
 
-**Voting Ensemble**
-
-![Alt text](https://github.com/MonishkaDas/nd00333_AZMLND_C2/blob/master/starterfile1/Screenshots/Screenshot%20(13).png?raw=true "VotingEnsemble")
 
 **Dataset**
 
@@ -83,6 +93,11 @@ Pipelines can perform several other tasks aside from training a model. Some of t
 **AutoMl-Run**
 
 ![Alt text]( https://github.com/MonishkaDas/nd00333_AZMLND_C2/blob/master/starterfile1/Screenshots/AutoML-Run.png?raw=true "")
+
+
+**Voting Ensemble**- The best model
+
+![Alt text](https://github.com/MonishkaDas/nd00333_AZMLND_C2/blob/master/starterfile1/Screenshots/Screenshot%20(13).png?raw=true "VotingEnsemble")
 
 
 **Best Model Explanation**
@@ -107,12 +122,24 @@ Pipelines can perform several other tasks aside from training a model. Some of t
 
 **logs.py execution**
 
+We use logs.py to Enable Application Insights
+
 ![Alt text]( https://github.com/MonishkaDas/nd00333_AZMLND_C2/blob/master/starterfile1/Screenshots/logsFile.png?raw=true "")
 
 
 **Applications Insight Enabled**
 
 ![Alt text]( https://github.com/MonishkaDas/nd00333_AZMLND_C2/blob/master/starterfile1/Screenshots/ApplicationInsightsEnables.png?raw=true "")
+
+
+**Application Insights**
+
+![Alt text]( https://github.com/MonishkaDas/nd00333_AZMLND_C2/blob/master/starterfile1/Screenshots/AppInsights.png?raw=true "")
+
+
+**benchmark.sh Execution**
+
+![Alt text]( https://github.com/MonishkaDas/nd00333_AZMLND_C2/blob/master/starterfile1/Screenshots/BenchmarkFile.png?raw=true "")
 
 
 **Performance Tracking**
@@ -123,16 +150,6 @@ Pipelines can perform several other tasks aside from training a model. Some of t
 **Swagger- localHost**
 
 ![Alt text]( https://github.com/MonishkaDas/nd00333_AZMLND_C2/blob/master/starterfile1/Screenshots/Swagger-Deploy.png?raw=true "")
-
-
-**benchmark.sh Execution**
-
-![Alt text]( https://github.com/MonishkaDas/nd00333_AZMLND_C2/blob/master/starterfile1/Screenshots/BenchmarkFile.png?raw=true "")
-
-
-**Application Insights**
-
-![Alt text]( https://github.com/MonishkaDas/nd00333_AZMLND_C2/blob/master/starterfile1/Screenshots/AppInsights.png?raw=true "")
 
 
 **Swagger Input Description**
