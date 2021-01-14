@@ -10,36 +10,39 @@ This dataset ("https://automlsamplenotebookdata.blob.core.windows.net/automl-sam
 
 ![Alt text](https://github.com/MonishkaDas/nd00333_AZMLND_C2/blob/master/starterfile1/Screenshots/architechture.png?raw=true "Architechture Diagram")
 
-**Authentication
+**Authentication**
 
 Authentication is crucial for the continuous flow of operations. Continuous Integration and Delivery system (CI/CD) rely on uninterrupted flows. When authentication is not set properly, it requires human interaction and thus, the flow is interrupted. An ideal scenario is that the system doesn't stop waiting for a user to input a password. So whenever possible, it's good to use authentication with automation.
 
-**Authentication types
+**Authentication types**
 
 **Key- based**
+
 Azure Kubernetes service enabled by default
 Azure Container Instances service disabled by default
 
 **Token- based**
+
 Azure Kubernetes service disabled by default
 Not support Azure Container Instances
 
 **Interactive**
+
 Used by local deployment and experimentation (e.g. using Jupyter notebook)
 
-**Azure AutoML
+**Azure AutoML**
 
 Automated machine learning, also referred to as automated ML or AutoML, is the process of automating the time consuming, iterative tasks of machine learning model development. It allows data scientists, analysts, and developers to build ML models with high scale, efficiency, and productivity all while sustaining model quality.
 
-**Deploy
+**Deploy**
 
 Deployment is about delivering a trained model into production so that it can be consumed by others. Configuring deployment settings means making choices on cluster settings and other types of interaction with a deployment. Having a good grasp on configuring production environments in Azure ML Studio and the Python SDK is the key to get robust deployments.
 
-**Enable Application Insights
+**Enable Application Insights**
 
 Application Insights collects log, performance, and error data. By automatically detecting performance anomalies and featuring powerful analytics tools, you can more easily diagnose issues and better understand how your functions are used. These tools are designed to help you continuously improve performance and usability of your functions. You can even use Application Insights during local function app project development. 
 
-**Consume Endpoints
+**Consume Endpoints**
 
 Swagger is a tool that helps build, document, and consume RESTful web services like the ones you are deploying in Azure ML Studio. It further explains what types of HTTP requests that an API can consume, like POST and GET.
 
@@ -47,11 +50,11 @@ You can consume a deployed service via an HTTP API. An HTTP API is a URL that is
 
 Users can initiate an input request, usually via an HTTP POST request. HTTP POST is a request method that is used to submit data. The HTTP GET is another commonly used request method. HTTP GET is used to retrieve information from a URL. The allowed requests methods and the different URLs exposed by Azure create a bi-directional flow of information.
 
-**Create a Pipeline
+**Create a Pipeline**
 
 This is the most common Python SDK class you will see when dealing with Pipelines. Aside from accepting a workspace and allowing multiple steps to be passed in, it uses a description that is useful to identify it later.
 
-**Publish pipelines
+**Publish pipelines**
 
 Publishing a pipeline is the process of making a pipeline publicly available. You can publish pipelines in Azure Machine Learning Studio, but you can also do this with the Python SDK.
 
@@ -66,100 +69,97 @@ Pipelines can perform several other tasks aside from training a model. Some of t
 
 
 ## Key Steps
-*TODO*: Write a short discription of the key steps. Remeber to include all the screencasts required to demonstrate key steps. 
 
-*TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
 
-**Voting Ensemble
+**Voting Ensemble**
 
 ![Alt text](https://github.com/MonishkaDas/nd00333_AZMLND_C2/blob/master/starterfile1/Screenshots/Screenshot%20(13).png?raw=true "VotingEnsemble")
 
-**Dataset
+**Dataset**
 
 ![Alt text]( https://github.com/MonishkaDas/nd00333_AZMLND_C2/blob/master/starterfile1/Screenshots/Datasets.png?raw=true "")
 
 
-**AutoMl-Run
+**AutoMl-Run**
 
 ![Alt text]( https://github.com/MonishkaDas/nd00333_AZMLND_C2/blob/master/starterfile1/Screenshots/AutoML-Run.png?raw=true "")
 
 
-**Best Model Explanation
+**Best Model Explanation**
 
 ![Alt text]( https://github.com/MonishkaDas/nd00333_AZMLND_C2/blob/master/starterfile1/Screenshots/BestModelExpalnation.png?raw=true "")
 
 
-**Explanation- Feature Importance
+**Explanation- Feature Importance**
 
 ![Alt text]( https://github.com/MonishkaDas/nd00333_AZMLND_C2/blob/master/starterfile1/Screenshots/Explanation-FeatureImportance.png?raw=true "")
 
 
-**Explanation- Datapoints
+**Explanation- Datapoints**
 
 ![Alt text]( https://github.com/MonishkaDas/nd00333_AZMLND_C2/blob/master/starterfile1/Screenshots/Explanation-DataPoints.png?raw=true "")
 
 
-**Deploy
+**Deploy**
 
 ![Alt text]( https://github.com/MonishkaDas/nd00333_AZMLND_C2/blob/master/starterfile1/Screenshots/Successful-Deployment.png?raw=true "")
 
 
-**logs.py execution
+**logs.py execution**
 
 ![Alt text]( https://github.com/MonishkaDas/nd00333_AZMLND_C2/blob/master/starterfile1/Screenshots/logsFile.png?raw=true "")
 
 
-**Applications Insight Enabled
+**Applications Insight Enabled**
 
 ![Alt text]( https://github.com/MonishkaDas/nd00333_AZMLND_C2/blob/master/starterfile1/Screenshots/ApplicationInsightsEnables.png?raw=true "")
 
 
-**Performance Tracking
+**Performance Tracking**
 
 ![Alt text]( https://github.com/MonishkaDas/nd00333_AZMLND_C2/blob/master/starterfile1/Screenshots/Performance.png?raw=true "")
 
 
-**Swagger- localHost
+**Swagger- localHost**
 
 ![Alt text]( https://github.com/MonishkaDas/nd00333_AZMLND_C2/blob/master/starterfile1/Screenshots/Swagger-Deploy.png?raw=true "")
 
 
-**benchmark.sh Execution
+**benchmark.sh Execution**
 
 ![Alt text]( https://github.com/MonishkaDas/nd00333_AZMLND_C2/blob/master/starterfile1/Screenshots/BenchmarkFile.png?raw=true "")
 
 
-**Application Insights
+**Application Insights**
 
 ![Alt text]( https://github.com/MonishkaDas/nd00333_AZMLND_C2/blob/master/starterfile1/Screenshots/AppInsights.png?raw=true "")
 
 
-**Swagger Input Description
-
+**Swagger Input Description**
 ![Alt text](https://github.com/MonishkaDas/nd00333_AZMLND_C2/blob/master/starterfile1/Screenshots/LocalHost.png?raw=true "")
 
 
-**Pipeline Run
+**Pipeline Run**
 
 ![Alt text](https://github.com/MonishkaDas/nd00333_AZMLND_C2/blob/master/starterfile1/Screenshots/waitforcompletion.png?raw=true "")
 
 
-**Pipeline Execution Summary
+**Pipeline Execution Summary**
 
 ![Alt text](https://github.com/MonishkaDas/nd00333_AZMLND_C2/blob/master/starterfile1/Screenshots/pipelineExecutionSummary.png?raw=true "")
 
 
-**Complete Pipeline
+**Complete Pipeline**
 
 ![Alt text](https://github.com/MonishkaDas/nd00333_AZMLND_C2/blob/master/starterfile1/Screenshots/CompletePipeline.png?raw=true "")
 
 
-**Published Pipeline
+**Published Pipeline**
 
 ![Alt text](https://github.com/MonishkaDas/nd00333_AZMLND_C2/blob/master/starterfile1/Screenshots/PublishedPipeline.png?raw=true "")
 
 
-**Pipeline Endpoint
+**Pipeline Endpoint**
 
 ![Alt text](https://github.com/MonishkaDas/nd00333_AZMLND_C2/blob/master/starterfile1/Screenshots/PipelineEndpoint.png?raw=true "")
 
