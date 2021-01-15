@@ -220,7 +220,11 @@ We use logs.py to Enable Application Insights
 
 **Jupyter Notebook**
 
-![Alt text](https://github.com/MonishkaDas/nd00333_AZMLND_C2/blob/master/starterfile1/ScreenShots/Screenshot%20(95).png?raw=true "")
+![Alt text](https://github.com/MonishkaDas/nd00333_AZMLND_C2/blob/master/starterfile1/ScreenShots/Screenshot%20(99).png?raw=true "")
+
+![Alt text](https://github.com/MonishkaDas/nd00333_AZMLND_C2/blob/master/starterfile1/ScreenShots/Screenshot%20(99).png?raw=true "")
+
+
 
 
 
