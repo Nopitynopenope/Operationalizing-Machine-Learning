@@ -99,7 +99,7 @@ Pipelines can perform several other tasks aside from training a model. Some of t
 
 **AutoMl-Run The best model**
 
-![Alt text](https://github.com/MonishkaDas/nd00333_AZMLND_C2/blob/master/starterfile1/ScreenShots/Screenshot%20(66).png.png?raw=true "")
+![Alt text](https://github.com/MonishkaDas/nd00333_AZMLND_C2/blob/master/starterfile1/ScreenShots/Screenshot%20(66).png?raw=true "")
 
 
 **Voting Ensemble**- The best model is deployed using Azure Container Instances and Authentication is Enabled
@@ -227,7 +227,7 @@ We use logs.py to Enable Application Insights
 
 ## Screen Recording
 
-Link to the screencast: https://www.youtube.com/watch?v=Byf4chPwAuw
+Link to the screencast: https://youtu.be/X4hyRzPFG3Y
 
 The screencast highlights the significant aspects of the project. It starts with diplaying the dataset in the datasets tab. Then, we check the AutoML Experiments tab and find the AutoMl run. We find the best model to be VotingEnsemble and check the explanation provided and the conclusions drawn from the experiment. We then move to the models section to find the deployed model 'bank-marketing-model-deploy'. We check thta the application insights in enabled and visit the link. We then run endpoint.py, benchmark.py and serve.py in the terminal. We launch the localhost to check the swagger documentation of our model. We then move to the pipelines section. The pipeline runs and endpoints are checked and we run through the jupyter notebook provided.
 
