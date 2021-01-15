@@ -6,7 +6,7 @@ This project is part of the Udacity Azure ML Nanodegree. The primary aim of the 
 
 
 # Overview
-This dataset ("https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv") contains data about 32950 individuals. The data includes their age, marital status, education, housing, loans, contact etc. We first use Azure AutoMl tool on the dataset provided to find the best model based on the metrics (like Accuracy). We then deploy the model and consume it and check the performance using Application Insights. Later, we create, publish and consume a pipeline using Jupyter Notebook.
+This dataset ("https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv") contains data about 32950 individuals. The data includes their age, marital status, education, housing, loans, contact etc. We first use Azure AutoMl tool on the dataset provided to find the best model based on the metrics (like Accuracy). We then deploy the model using Azure Container Instances and enable Application Insights and Authentication and then consume it and check the performance using Application Insights. Later, we create, publish and consume a pipeline using Jupyter Notebook Azure ML Studio.
 
 ## Architectural Diagram
 
