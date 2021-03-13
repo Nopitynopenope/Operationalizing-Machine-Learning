@@ -1,5 +1,5 @@
 
-# Operationalizing Machine Learning
+# Operationalizing Machine Learning using Azure
 
 This project is part of the Udacity Azure ML Nanodegree. The primary aim of the project is to Operationalize Machine Learning and put it to use. We create, deploy and consume an AutoMl model and also create, publish and consume a pipeline.
 
